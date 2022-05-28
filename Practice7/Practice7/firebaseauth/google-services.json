@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "663740087374",
+    "project_id": "practice7new",
+    "storage_bucket": "practice7new.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663740087374:android:4428b1c5a5cfb8528bd71f",
+        "android_client_info": {
+          "package_name": "ru.mirea.ivanova.firebaseauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "663740087374-3pgsgc0idju5v4pm9iipohi1up4lifl3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8H1uZ6YEfNnBy0Ans7EJ8yCwjEFxlzPc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "663740087374-3pgsgc0idju5v4pm9iipohi1up4lifl3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
