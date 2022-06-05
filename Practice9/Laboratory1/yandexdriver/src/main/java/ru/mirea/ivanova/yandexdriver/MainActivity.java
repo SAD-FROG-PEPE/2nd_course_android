@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity implements
     private MapView mapView;
     private MapObjectCollection mapObjects;
     private DrivingRouter drivingRouter;
-    private DrivingSession drivingSession;
     private int[] colors = {0xFFFF0000, 0xFF00FF00, 0x00FFBBBB, 0xFF0000FF};
 
     @Override
@@ -64,7 +63,7 @@ public class MainActivity extends AppCompatActivity implements
         requestPoints.add(new RequestPoint(ROUTE_START_LOCATION, RequestPointType.WAYPOINT, null));
         requestPoints.add(new RequestPoint(ROUTE_END_LOCATION, RequestPointType.WAYPOINT, null));
 
-        drivingSession = drivingRouter.requestRoutes(requestPoints, options, this);
+        DrivingSession drivingSession = drivingRouter.requestRoutes(requestPoints, options, this);
     }
 
     @Override
